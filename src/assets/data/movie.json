@@ -1,0 +1,7 @@
+[
+    {"cast": "EMMA WATSON", "name": "HARRY POTTER", "rating":3.0},
+    {"cast": "ROBERT", "name": "TWILIGHT", "rating": 2.5},
+    {"cast": "CAPRIO", "name": "INCEPTION", "rating": 2.6},
+    {"cast": "RANBIR", "name": "BARFI", "rating": 2.8},
+    {"cast": "ANIL", "name": "JAI HO", "rating": 2.5}    
+]

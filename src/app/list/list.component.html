@@ -1,0 +1,9 @@
+<h1>Details of movie</h1>
+<ejs-grid [dataSource]='data'[allowPaging]="true" [allowSorting]="true" [pageSettings]='pageSettings'>
+  <e-columns>
+      <e-column field='MOVIENAME' headerText='moviename' textAlign='Right' width=90 style="color: black; font-size: x-large"></e-column>
+      <e-column field='CAST' headerText='cast' textAlign='Right' width=90 style="color: black"></e-column>
+      <e-column field='RATING' headerText='rating' textAlign='Right' format='C2' width=90 style="color: black"></e-column>
+      <e-column field='YEAR' headerText='year' textAlign='Right'  width=120 style="color: black"></e-column>
+  </e-columns>
+  </ejs-grid>

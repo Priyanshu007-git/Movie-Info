@@ -1,0 +1,21 @@
+
+
+<nav class> 
+   <a routerLink = "/moviedetails">Movie details</a> 
+   <a routerLink = "/browse">Browse </a> 
+   <a routerLink = "/list">List </a> 
+
+</nav> 
+
+
+<h2>List of movies</h2>
+    <h3>{{errorMsg}}</h3>
+    <ul *ngFor="let movie of movies">
+      <li>NAME :{{movie.name}}</li>
+      <li>CAST :{{movie.cast}}</li>
+      <li>RATING :{{movie.rating}}</li>
+    </ul>
+
+    <router-outlet></router-outlet>
+ 
+    
